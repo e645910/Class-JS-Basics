@@ -11,7 +11,7 @@ var isTyler = function(name) {
 }
 isTyler(name);
 
-//Next problem
+//Next problem ===================================================================
 
 
 //Create a function called getName that uses prompt() to prompt the user for their name, then returns the name.
@@ -23,8 +23,7 @@ isTyler(name);
   }
   getName(name);
 
-//Next Problem
-
+//Next problem ===================================================================
 
 
 //Create a function called welcome that uses your getName function you created in the previous problem to get the users name,
@@ -37,8 +36,7 @@ isTyler(name);
   }
   welcome(name);
 
-//Next problem
-
+//Next problem ===================================================================
 
 
 //Write a function called adder that uses the 'arguments' keyword that comes with every function to
@@ -54,7 +52,7 @@ isTyler(name);
     for (var i = 0; i < arr.length; i++){
       sum += arr[i];
     }
-    alert("The Total Number was " + sum);
+    alert('The Total Number was ' + sum);
   };
 
   adder(numbers);
@@ -68,9 +66,7 @@ sum = 0; // sum is the place holder each time the code goes through a loop
             sum = sum + i
         }
 
-//Next Problem
-
-
+//Next problem ===================================================================
 
 //What is the difference between arguments and parameters?
 
@@ -79,9 +75,7 @@ sum = 0; // sum is the place holder each time the code goes through a loop
   Arguments are a previously stored variable.
 
 
-
-//Next problem
-
+//Next problem ===================================================================
 
 
 //What are all the falsy values in JavaScript and how do you check if something is falsy?
@@ -92,8 +86,7 @@ Falsy values are usaully equal to zero, false, empty string, null, undifined and
 Falsy vaules can be determined by checking to see if the function equals any of the above falsy vaules.
 
 
-//Next Problem
-
+//Next problem ===================================================================
 
 //Create a function called myName that returns your name
 
@@ -111,7 +104,7 @@ Falsy vaules can be determined by checking to see if the function equals any of 
 
 alert(newMyName);
 
-//Next problem
+//Next problem ===================================================================
 
 
 //Create a function called outerFn which returns an anonymous function which returns your name.
